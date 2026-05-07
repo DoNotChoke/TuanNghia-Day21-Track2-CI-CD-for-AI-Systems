@@ -118,9 +118,9 @@ Mô hình mới huấn luyện trên 5996 mẫu sẽ được phục vụ. Khôn
 Tải file `outputs/metrics.json` từ artifacts của hai lần chạy để so sánh:
 
 | Chỉ số | Bước 2 (2998 mẫu) | Bước 3 (5996 mẫu) |
-|---|---|---|
-| accuracy | ? | ? |
-| f1_score | ? | ? |
+|---|-------------------|-------------------|
+| accuracy | 0.6800            | 0.7500            | ? |
+| f1_score | 0.6768            | 0.7486            |
 
 Điền vào bảng trên dựa trên kết quả thực tế của bạn. Nếu mô hình mới có accuracy cao hơn, điều đó chứng tỏ thêm dữ liệu làm tăng hiệu quả mô hình.
 
