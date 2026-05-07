@@ -1,4 +1,4 @@
-# Bước 2 - Pipeline CI/CD Tự Động
+ăă# Bước 2 - Pipeline CI/CD Tự Động
 
 Mục tiêu: Mỗi khi bạn push code hoặc thay đổi dữ liệu, GitHub Actions tự động huấn luyện mô hình, kiểm tra accuracy có đạt ngưỡng >= 0.70 không, và triển khai lên VM nếu đạt yêu cầu.
 
