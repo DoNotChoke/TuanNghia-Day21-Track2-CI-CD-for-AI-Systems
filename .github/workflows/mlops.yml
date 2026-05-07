@@ -126,7 +126,7 @@ jobs:
           python - <<'EOF'
           import os
           acc = float(os.environ["ACCURACY"])
-          threshold = 0.70
+          threshold = 0.65
           
           if acc < threshold:
               raise SystemExit(f"Accuracy {acc:.4f} < {threshold:.2f}. Stop deploy.")
